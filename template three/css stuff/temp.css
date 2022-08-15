@@ -682,14 +682,6 @@ margin-bottom: 47px;
 .test .box:nth-child(3) .stars span:nth-child(n+2) {
   color: #666;
 }
-.test .box:nth-child(3) > span::before {
-  content: "Horny";
-  left: -5px;
-  display: none;
-  position: absolute;
-  z-index: 1;
-  background-color: white;
-}
 .test .box:nth-child(3) > span:hover::before {
 display: block;
 }
